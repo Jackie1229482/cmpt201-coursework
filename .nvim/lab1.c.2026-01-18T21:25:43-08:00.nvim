@@ -21,7 +21,7 @@ int main() {
   char *wordptr;
   char *current_token = strtok_r(user_input, " ", &wordptr);
 
-  printf("Tokens: \n");
+    printf("Tokens: \n");
   while (current_token != NULL) {
     printf("%s \n", current_token);
     current_token = strtok_r(NULL, " ", &wordptr);
